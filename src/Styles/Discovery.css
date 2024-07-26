@@ -1,0 +1,33 @@
+/* Discovery.css */
+.discovery-container {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for readability */
+  }
+  
+  .discovery-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .discovery-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .discovery-description, .discovery-food {
+    margin-bottom: 20px;
+  }
+  
+  .discovery-description p, .discovery-food p {
+    color: #343a40; /* Dark text for readability */
+  }
+  
+  .discovery-food ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .discovery-food li {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,25 @@
+.nav2 {
+    background-color: rgb(192, 192, 240);
+    color: white; /* Apply white color to text inside .nav2 */
+}
+
+.nav2 .link .navLink {
+    color: white; /* Override previous color to white */
+    border-right: 2px dotted white;
+}
+
+.menu-card {
+    border: 1px solid black;
+    padding: 15px;
+    color: white; /* Apply white color to text inside .menu-card */
+}
+
+
+.menu-card img {
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-card img:hover {
+    transform: scale(1.1);
+  }
+  

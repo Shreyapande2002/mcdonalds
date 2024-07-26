@@ -1,0 +1,81 @@
+.Banner{
+    background-image: url("../Images/mainbanner.jpeg");
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: right bottom, left top;
+}
+.Coupons{
+    background-color: rgba(255,183,0);
+} 
+/*button*/
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+  }
+  
+  
+  
+  .image-container .overlay-button:hover {
+    background-color: #0056b3;
+  }
+.footer{
+    background-color:#222e3a;
+    color:grey;
+   margin-top: 50px;
+   height: 400px;
+}
+.footer ul a li{
+    list-style: none;
+    padding:7px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer ul a{
+    text-decoration: none;
+    color:white;
+}
+.icons a{
+    color:chartreuse;  
+}
+
+/* Styles/Discovery.css */
+
+.image-container img {
+  transition: transform 0.3s ease;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+}
+
+.overlay-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay-button {
+  opacity: 1;
+}

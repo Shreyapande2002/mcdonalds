@@ -1,0 +1,36 @@
+/* App.css or specific CSS file */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer h4 {
+    color: white;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer ul a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer ul a li {
+    margin: 5px 0;
+  }
+  
+  .footer ul a:hover {
+    text-decoration: underline;
+  }
+  
+  hr {
+    border-color: white;
+  }
+  
+  h6 {
+    margin: 10px 0;
+  }
